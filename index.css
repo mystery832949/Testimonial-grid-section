@@ -1,0 +1,410 @@
+*{
+    box-sizing: border-box; 
+    margin: 0 ; 
+    padding: 0 ; 
+    font-family: "Barlow Semi Condensed", serif;
+   
+}
+
+body{
+    background: var(--Light-grayish-blue);
+
+    font-size: 13px; 
+   
+} 
+ 
+.saying{
+     padding: 10px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column; 
+    
+   
+}
+.Daniel-text{
+    position: relative; 
+    bottom: 100px;
+}
+:root{
+
+    // Primary
+    --Moderate-violet: hsl(263, 55%, 52%);
+    --Very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --Very-dark-blackish-blue:  hsl(219, 29%, 14%);
+    --White:   hsl(0, 0%, 100%);
+
+    // Neutral
+      
+     
+    --Light-gray:#cfcfcf;
+    --Light-grayish-blue: hsl(210, 46%, 95%);
+}
+.Daniel-oncourse {
+    text-align: left; 
+}
+.Daniel-discription{
+   position: relative; 
+ 
+   right: 18px;
+}
+.qoutation-img img{
+    position: relative; 
+    left: 200px;
+    bottom: 20px;
+}
+.Daniels-testimonial{
+   padding: 20px !important; 
+    background: hsl(263, 55%, 52%);
+     
+}
+ 
+.discription img{
+    margin-left: 20px;
+    border-radius: 50px;
+     
+    
+}
+.discription{
+    display: flex;
+    place-items: center;
+    gap: 20px;
+} 
+.name{
+    font-weight: 500;
+}
+.verified-graduate {
+  
+   
+     opacity: 50%; 
+
+}
+ 
+.name,.verified-graduate{
+    color: var(--Light-grayish-blue);
+}
+.Jeanette-name{
+    
+    color: var(    --Very-dark-grayish-blue); 
+    font-weight: 600;
+}
+.name,.verified-graduate{
+    color: var(--Light-grayish-blue);
+}
+.oncourse{
+    font-size: 21px;
+}
+ 
+.Daniel-oncourse,.Jonathan-oncourse,.Patrick-oncourse {
+    color: var(--Light-grayish-blue);
+    font-weight: 500; 
+}
+.Patrick-testimonial{
+  background: var(--Very-dark-blackish-blue); 
+}
+.Jeanette-oncourse,.Kira-oncourse{
+    color: var(--Very-dark-grayish-blue); 
+    font-weight: 600;
+}
+.qoute{
+    color: var(--Light-grayish-blue);
+     opacity: 70%; 
+      
+      
+}
+ 
+.Jonathan-testimonial{
+    background: var(--Very-dark-grayish-blue);
+}
+
+.discription img{
+    height:  40px;
+}
+
+.Jeanette-qoute,.Kira-qoute{
+    color: var(--Very-dark-blackish-blue ); 
+    font-weight:400; 
+    opacity: 70%; 
+}
+.Kira-testimonial,.Jeanette-testimonial{
+   background-color:var(--White)  ; 
+ 
+}
+.Kira-verified-graduate,.Jeanette-verified-graduate{
+    color: var(--Very-dark-grayish-blue );
+    opacity: 50%;       
+}
+.Kira-name,.Jeanette-name{
+    color: var(--Very-dark-grayish-blue ); 
+    font-weight: 500;
+}
+ 
+.testimonial{
+    border-radius: 10px;
+     padding:20px;
+}
+ 
+.testimonials-container{
+    display: grid;
+    grid-template-rows: 390px 230px 230px 360px 350px;
+
+    flex-direction: column;
+     gap: 30px; 
+     padding: 20px;
+    
+     
+
+}
+ 
+.Daniel-oncourse{
+   text-direction: rtl ; 
+}
+.information{
+    font-size: 16px;
+}
+@media  (min-width:  1024px) and (max-width: 1024px)     {
+    body{
+        display:flex;
+        justify-content: center;
+        align-items: center; 
+        font-size: 14px; 
+    }
+     .Daniel-oncourse{
+        position: relative; 
+        top:5px;
+     }
+     .discription img{ 
+         height: 30px;
+     }
+    .discription{
+        margin-bottom: 10px;
+    }
+    .information{
+        font-size: 13px;
+      
+    }
+
+    .Daniel-text{
+       position: relative; 
+       bottom: 80px;
+    }
+    .testimonials-container{
+        display: grid;
+        grid-template-columns:  250px 200px 230px 250px; 
+        grid-template-rows: 320px 300px ;
+         gap: 28px; 
+         
+          
+        
+         
+    
+    }
+    .qoutation-img  {
+        position: relative; 
+        top: 1px;
+        left: 140px !important;
+        
+    }
+    .Patrick-qoute{
+        position: relative; 
+        bottom: 10px;
+    }
+     .Jonathan-testimonial {
+         padding: 17px;
+     }
+    .Daniels-testimonial{
+     
+        grid-row: 1/2   ; 
+        grid-column: 1/3;  
+    }
+    .Kira-testimonial{
+        grid-row: 1/ 3;
+        grid-column: 4/5 ; 
+    }
+    .Jonathan-testimonial{
+          grid-row: 1/1; 
+          grid-column: 3/3;
+          
+    }
+    .Patrick-testimonial{
+        grid-row: 2/3 ; 
+        grid-column: 2/4; 
+    }
+    .Jeanette-testimonial{
+          grid-row: 2/3; 
+          grid-column: 1/2; 
+    }
+    
+    body{
+        background: white; 
+    }
+    .Jonathan-text{
+        position: relative;
+        bottom: 3px;
+       
+    }
+    .Jonathan-discription   {
+         position:relative; 
+         right: 9px;
+         top: 8px;
+    }
+    .qoutation-img {
+        position: relative; 
+        left: 100px;
+        bottom: 40px;
+    }
+    
+    .Daniel-saying{
+        position: relative; 
+        bottom: 8px;
+    }
+    .Daniel-oncourse{
+       
+        line-height:  25px;
+    }
+    .kira-text{
+        position: relative;
+        top: 15px;
+         
+    }
+    .Kira-discription{
+        position: relative; 
+        right: 12px;
+    }
+    .Daniel-discription{
+      position: relative;
+      right: 10px;
+    }
+    .Kira-testimonial{
+        box-shadow: 
+    }
+    .Daniel-text{
+        position: relative; 
+        bottom: 100px;
+    }
+    .Jeanette-discription{
+        position:relative; 
+        right: 12px;
+    }
+    .Kira-testimonial,.Jeanette-testimonial{
+        box-shadow: rgba(0,0,0,0.2)  10px 40px 80px;
+    }
+} 
+@media   (min-width: 1200px ){
+    body{
+        display:flex;
+        justify-content: center;
+        align-items: center; 
+        font-size: 14px; 
+    }
+     .Daniel-oncourse{
+        position: relative; 
+        top:5px;
+     }
+     .discription img{ 
+         height: 30px;
+     }
+    .discription{
+        margin-bottom: 10px;
+    }
+    .information{
+        font-size: 13px;
+      
+    }
+
+    .Daniel-text{
+       position: relative; 
+       bottom: 80px;
+    }
+    .testimonials-container{
+        display: grid;
+         grid-template-columns:  250px 275px 260px 250px; 
+        grid-template-rows: 275px 280px ;
+         gap: 28px; 
+         
+          
+        
+         
+    
+    }
+     .Jonathan-testimonial {
+         padding: 17px;
+     }
+    .Daniels-testimonial{
+     
+        grid-row: 1/2   ; 
+        grid-column: 1/3;  
+    }
+    .Kira-testimonial{
+        grid-row: 1/ 3;
+        grid-column: 4/5 ; 
+    }
+    .Jonathan-testimonial{
+          grid-row: 1/1; 
+          grid-column: 3/3;
+          
+    }
+    .Patrick-testimonial{
+        grid-row: 2/3 ; 
+        grid-column: 2/4; 
+    }
+    .Jeanette-testimonial{
+          grid-row: 2/3; 
+          grid-column: 1/2; 
+    }
+    
+    body{
+        background: white; 
+    }
+    .Jonathan-text{
+        position: relative;
+        bottom: 3px;
+       
+    }
+    .Jonathan-discription   {
+         position:relative; 
+         right: 9px;
+         top: 8px;
+    }
+    
+    
+    .Daniel-saying{
+        position: relative; 
+        bottom: 8px;
+    }
+    .Daniel-oncourse{
+       
+        line-height:  25px;
+    }
+    .kira-text{
+        position: relative;
+        top: 15px;
+         
+    }
+    .Kira-discription{
+        position: relative; 
+        right: 12px;
+    }
+    .Daniel-discription{
+      position: relative;
+      right: 10px;
+    }
+    .Kira-testimonial{
+        box-shadow: 
+    }
+    .qoutation-img{
+      position: relative; 
+      top: 1px;
+      left: 145px;
+    }
+    .Daniel-text{
+        position: relative; 
+        bottom: 100px;
+    }
+    .Jeanette-discription{
+        position:relative; 
+        right: 12px;
+    }
+    .Kira-testimonial,.Jeanette-testimonial{
+        box-shadow: rgba(0,0,0,0.2)  10px 40px 80px;
+    }
+}
